@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mantisproperty.MainPage"  
+             Title="Xamarin.Forms App">
+    <Frame   VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" AnchorX="0.5" Padding="0">
+
+        <WebView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" 
+                 Source="https://www.mantisproperty.com.au/agents" WidthRequest="1000" HeightRequest="1000">
+
+        </WebView>
+
+    </Frame>
+</ContentPage> 
